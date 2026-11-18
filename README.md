@@ -6,9 +6,9 @@
 ![3D Graphics](https://img.shields.io/badge/3D-graphics-purple)
 ![Coursework](https://img.shields.io/badge/UTH-ECE433-teal)
 
-Coursework repository for **ECE433 — Computer Graphics** at the **University of Thessaly**. The repository covers raster graphics, antialiasing, scanline polygon filling, clipping, OpenGL/GLUT, 2D/3D transformations, lighting, texturing, culling, and a substantially extended final 3D scene project.
+Coursework repository for **ECE433 — Computer Graphics** at the **University of Thessaly**. The repository covers raster graphics, antialiasing, scanline polygon filling, clipping, OpenGL/GLUT, 2D/3D transformations, lighting, texturing, culling, and an extended final 3D scene project.
 
-The main portfolio piece is **Homework 3 / Project 3: Visiting a 3D House**: a first-person OpenGL scene that grew beyond the assignment into a small modular rendering/game framework with hierarchical objects, hot-reloadable assets, dynamic lighting, textured models, transparent windows, a day/night cycle, NURBS terrain features, and multiple camera/view modes.
+The largest project is **Homework 3 / Project 3: Visiting a 3D House**, a first-person OpenGL scene that grew into a small modular rendering framework with hierarchical objects, hot-reloadable assets, dynamic lighting, textured models, transparent windows, a day/night cycle, NURBS terrain features, and multiple camera/view modes.
 
 ## Quick overview
 
@@ -20,7 +20,7 @@ The main portfolio piece is **Homework 3 / Project 3: Visiting a 3D House**: a f
 | OpenGL scene work | Lighting, materials, texture mapping, culling, camera navigation, multi-viewport rendering. |
 | Final project | A furnished, explorable 3D house and outdoor environment with a custom scene/object framework. |
 
-## Standout project: interactive 3D house
+## Highlight: interactive 3D house
 
 <p align="center">
   <img src="docs/images/hw3-day-exterior.png" alt="Daytime exterior view of the 3D house, forest, mountains, and pathway" width="45%">
@@ -37,7 +37,7 @@ The main portfolio piece is **Homework 3 / Project 3: Visiting a 3D House**: a f
   <img src="docs/images/hw3-car-night.png" alt="Detailed imported car model under darker lighting" width="45%">
 </p>
 
-The assignment asked for a 3D house or 3D space with transformations, modeling, hidden-surface removal, lighting, texture mapping, a moving camera, and a separate view-rendering program. This implementation goes much further:
+The assignment asked for a 3D house or 3D space with transformations, modeling, hidden-surface removal, lighting, texture mapping, a moving camera, and a separate view-rendering program. This implementation adds:
 
 - **Hierarchical object system:** `Object` supports parent/child composition, recursive transforms, polymorphic drawing through `drawInternal()`, and grouped scene objects such as rooms, furniture, lanterns, framed windows, and the full house.
 - **Display-list optimization:** static objects can be compiled into OpenGL display lists, avoiding repeated expensive redraw setup for heavy geometry.
@@ -54,7 +54,7 @@ The assignment asked for a 3D house or 3D space with transformations, modeling, 
 
 ## Course contents
 
-Handouts and recovered reports are collected under [`docs/handouts/`](docs/handouts/) and [`docs/reports/`](docs/reports/). Homework 1 and Homework 3 use subfolders because they include multiple handout/supporting PDFs.
+Handouts and reports are under [`docs/handouts/`](docs/handouts/) and [`docs/reports/`](docs/reports/). Homework 1 and Homework 3 use subfolders because they include multiple handout/supporting PDFs.
 
 | Path | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ Implemented/reported work includes:
 - Mouse-driven point/line/circle creation.
 - Keyboard-controlled drawing color and mode selection.
 
-Useful paths:
+Where to look:
 
 - [`docs/handouts/homework-1-rasterization-antialiasing/project-handout.pdf`](docs/handouts/homework-1-rasterization-antialiasing/project-handout.pdf)
 - [`docs/reports/homework-1-rasterization-antialiasing-report.pdf`](docs/reports/homework-1-rasterization-antialiasing-report.pdf)
@@ -99,7 +99,7 @@ Implemented/reported work includes:
 - Interactive clipping-window selection and polygon clipping.
 - Optional fill toggling for clipped polygons.
 
-Useful paths:
+Where to look:
 
 - [`docs/handouts/homework-2-polygon-fill-clipping.pdf`](docs/handouts/homework-2-polygon-fill-clipping.pdf)
 - [`docs/reports/homework-2-polygon-fill-clipping-report.pdf`](docs/reports/homework-2-polygon-fill-clipping-report.pdf)
@@ -110,7 +110,7 @@ Useful paths:
 
 Homework 3 is the final project and the deepest implementation in the repository. It contains lecture/lab examples for lighting, texturing, culling, and camera movement, then the full 3D house simulation.
 
-Useful paths:
+Where to look:
 
 - [`docs/handouts/homework-3-3d-house/project-handout.pdf`](docs/handouts/homework-3-3d-house/project-handout.pdf)
 - [`docs/reports/homework-3-3d-house-report.pdf`](docs/reports/homework-3-3d-house-report.pdf)
