@@ -1,10 +1,7 @@
 # ECE433 — Computer Graphics
 
-![C++](https://img.shields.io/badge/C%2B%2B-OpenGL-blue)
-![OpenGL / GLUT](https://img.shields.io/badge/OpenGL%20%2F%20GLUT-graphics-green)
-![Rasterization](https://img.shields.io/badge/Rasterization-algorithms-orange)
-![3D Graphics](https://img.shields.io/badge/3D-graphics-purple)
-![Coursework](https://img.shields.io/badge/UTH-ECE433-teal)
+![C++](https://img.shields.io/badge/C%2B%2B-0E7C86?style=flat&logo=cplusplus&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-8A6D2B?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyLjVsOC41IDQuNzV2OS41TDEyIDIxLjVsLTguNS00Ljc1di05LjV6Ii8+PHBhdGggZD0iTTMuNSA3LjI1TDEyIDEybDguNS00Ljc1TTEyIDEydjkuNSIvPjwvc3ZnPg==)
 
 Coursework repository for **ECE433 — Computer Graphics** at the **University of Thessaly**. The repository covers raster graphics, antialiasing, scanline polygon filling, clipping, OpenGL/GLUT, 2D/3D transformations, lighting, texturing, culling, and an extended final 3D scene project.
 
